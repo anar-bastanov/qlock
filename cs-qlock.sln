@@ -7,6 +7,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "quine-clock", "quine-clock\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "quine-clock-implicit-usings", "quine-clock-implicit-usings\quine-clock-implicit-usings.csproj", "{AE9F0C8E-8DB6-4E1B-AF1D-360DC1AA4CCC}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{31752397-E5E9-4E28-A2DD-9107DDB619BB}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		LICENSE.txt = LICENSE.txt
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
