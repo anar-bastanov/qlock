@@ -12,10 +12,11 @@ The repository contains two Visual Studio projects, and each project has two C# 
  3. Configure the startup project first or press Run right away.
 
 The reason why there are two projects in the first place is that the newest C# versions have an optional feature called [Implicit Using Directives](https://learn.microsoft.com/en-us/dotnet/core/project-sdk/overview#implicit-using-directives), and it allows shortening some code, thus the two versions of the same quine:
+
 | Project | Target Framework | Implicit Usings |
-|:--------|:----------------:|:---------------:|
-| `quine-clock.csproj`				   | .NET 6 | disabled |
-| `quine-clock-implicit-usings.csproj` | .NET 8 | enabled  |
+|:-------:|:----------------:|:---------------:|
+| `quine-clock.csproj`				   | .NET 6 | Disabled |
+| `quine-clock-implicit-usings.csproj` | .NET 8 | Enabled  |
 
 ## References
 Other implementations:
